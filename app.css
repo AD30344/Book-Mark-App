@@ -1,0 +1,94 @@
+html{
+    background-color: orange;
+    
+}
+
+header p {
+  font-size: 20px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter{
+  width: 100%;
+  position: auto;
+  display: flex
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #09110d;
+}
+
+.addBmarks { 
+  background-color: rgb(43, 150, 192);
+  padding: 6px;
+  width: 20%;
+  height: 40%;
+
+}
+
+.cancelB{
+   background-color: rgb(43, 150, 192);
+  padding: 6px;
+  width: 20%;
+  height: 40%;
+
+}
+.dropDown{
+  text-align: center;
+}
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.mainContainer{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ display:flex;
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background:rgb(19, 61, 177);
+    color:white;
+    font-size: 30px;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: fantasy;
+    color: orange;
+  }
+  
